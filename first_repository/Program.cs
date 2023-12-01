@@ -16,7 +16,7 @@ namespace first_repository
                 Console.WriteLine("Welcome {0}", username);
             }
             Console.WriteLine("Press any key to continue...");
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
         private static List<string> GetUsernames(string filename)
